@@ -1,4 +1,6 @@
-﻿<div class="container card card-body">
+﻿@model CarFormModel
+
+<div class="container card card-body">
 	<div class="row">
 		<h1 class="text-center col-md-12">Add a new car</h1>
 	</div>
@@ -21,8 +23,8 @@
 					<span asp-validation-for="Year" class="text-danger"></span>
 				</div>
 				<div class="row">
-					<label asp-for="ImageUrl"></label>
-					<input id="image-upload" asp-for="ImageUrl" accept="image/jpeg, image/png" class="form-control" />
+					<label asp-for="PictureUrl"></label>
+					<input id="image-upload" asp-for="PictureUrl" accept="image/jpeg, image/png" class="form-control" />
 				</div>
 				<div class="row">
 					<label asp-for="PlateNumber"></label>
@@ -31,7 +33,7 @@
 				</div>
 				<br />
 				<div class="row">
-					<button class="btn btn-primary col-12" type="submit">Submit</button>
+					<button class="btn btn-primary col-12" type="submit">Add car</button>
 				</div>
 			</form>
 		</div>
