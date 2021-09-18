@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marto\\OneDrive\\Desktop\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj": {}
+    "C:\\Users\\ku4\\Source\\Repos\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marto\\OneDrive\\Desktop\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj": {
+    "C:\\Users\\ku4\\Source\\Repos\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marto\\OneDrive\\Desktop\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ku4\\Source\\Repos\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj",
         "projectName": "CarShop.Web",
-        "projectPath": "C:\\Users\\marto\\OneDrive\\Desktop\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj",
-        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marto\\OneDrive\\Desktop\\CarShop-Practice\\CarShop\\CarShop.Web\\obj\\",
+        "projectPath": "C:\\Users\\ku4\\Source\\Repos\\CarShop-Practice\\CarShop\\CarShop.Web\\CarShop.Web.csproj",
+        "packagesPath": "C:\\Users\\ku4\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ku4\\Source\\Repos\\CarShop-Practice\\CarShop\\CarShop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ku4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
