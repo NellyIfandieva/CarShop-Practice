@@ -1,0 +1,40 @@
+﻿@{
+	ViewBag.Title = "Register";
+}
+
+<form method="post" enctype="multipart/form-data">
+	<div class="row">
+		<label asp-for="Username" class="mx-auto"></label>
+		<input asp-for="Username" class="form-control" />
+		<span asp-validation-for="Username" class="text-danger"></span>
+	</div>
+
+	<div class="row">
+		<label asp-for="Email" class="mx-auto"></label>
+		<input asp-for="Email" class="form-control" />
+		<span asp-validation-for="Email" class="text-danger"></span>
+	</div>
+
+	<div class="row">
+		<label asp-for="Password" class="mx-auto"></label>
+		<input asp-for="Password" class="form-control" />
+		<span asp-validation-for="Password" class="text-danger"></span>
+	</div>
+
+	<div class="row">
+		<label asp-for="ConfirmPassword" class="mx-auto"></label>
+		<input asp-for="ConfirmPassword" class="form-control" />
+		<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+	</div>
+
+	<div class="row">
+		<label asp-for="Role" class="mx-auto"></label>
+		<input asp-for="Role" class="form-control" />
+		<span asp-validation-for="Role" class="text-danger"></span>
+	</div>
+
+	<br>
+	<div class="row">
+		<button class="btn btn-primary w-100" type="submit">Login</button>
+	</div>
+</form>
