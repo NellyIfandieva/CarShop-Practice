@@ -1,0 +1,34 @@
+﻿@{
+	ViewBag.Title = "Car issues";
+}
+
+<h2 class="text-center">Listed issues for:</h2>
+<h3 class="text-center">@Model.CarModel</h3>
+
+<a class="btn btn-warning w-100 m-2">Add a new issue</a>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">Description</th>
+			<th scope="col">Is it fixed?</th>
+			<th scope="col">Fix issue</th>
+			<th scope="col">Delete issue</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var issue in Model.Issues)
+		{
+			<tr class="animate-zoom-sm animate-background">
+				<td>@issue.Description</td>
+				<td>@issue.Fixed</td>
+				<td>
+					<a class="btn btn-success">Fix issue</a>
+				</td>
+				<td>
+					<a class="btn btn-danger">Delete issue</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
