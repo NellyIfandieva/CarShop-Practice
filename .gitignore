@@ -239,3 +239,11 @@ ErrorAsp.png
 FilesAsp.png
 
 ChefsKiss/Web/ChefsKiss.Web/wwwroot/images/
+**/wwwroot/lib/
+CarShop.Web/appsettings.json
+appsettings.Production.json
+appsettings.Development.json
+appsettings.Staging.json
+*.min.css
+*.min.js
+**/migrations/
