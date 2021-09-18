@@ -1,0 +1,10 @@
+﻿<h2>Please describe the issue you'd like to add.</h2>
+<hr>
+
+<form method="post" enctype="multipart/form-data" class="col-md-12">
+	<label asp-for="Description"></label>
+	<input asp-for="Description" class="form-control" />
+	<span asp-validation-for="Description" class="text-danger"></span>
+	<br>
+	<button class="btn btn-primary w-100" type="submit">Add</button>
+</form>
