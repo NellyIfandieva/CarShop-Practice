@@ -1,4 +1,8 @@
-﻿<h2 class="text-center">My cars</h2>
+﻿@{
+	ViewBag.Title = "My cars";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
 
 <div id="recipes-list" class="row mx-auto">
 	@foreach (var car in Model)
